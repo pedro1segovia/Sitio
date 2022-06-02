@@ -1,0 +1,24 @@
+{% extends 'products/base.html'%}
+{% load bootstrap3 %}
+{% block content %}
+    {% comment %}
+    {% generate_menu %}
+    {% with menu=menus.main %} {% include "products/menu.html" %} {% endwith %}
+    {% endcomment %}
+    <a id="go-top-button"></a>
+    {% if titulo %}
+        <div class="form-title">
+            {{titulo}}
+        </div>
+    {% endif %}
+    {%if back_link %}
+        {% comment %} <a role="button" class="btn btn-info btn-sm" href="{{ back_link }}"><i class="fas fa-arrow-left"></i> Volver</a> {% endcomment %}
+        <a role="button" class="btn btn-info btn-sm" onclick="history.back()"><i class="fas fa-arrow-left"></i> Volver</a>
+
+    {% endif %}
+    <div class="container form-box cbv">
+        {% comment %} Plantilla base de los programas del sistema SIAC {% endcomment %}
+        {% block contenido %} {% endblock%}
+    </div>
+
+{% endblock content %}

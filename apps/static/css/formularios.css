@@ -1,0 +1,119 @@
+form .container {
+    margin-top: 25px;
+}
+
+
+/* ESTILOS DE FORMULARIOS */
+
+.form-box {
+    background-color: #fff;
+    border-top: 3px solid #014200;
+    box-shadow: 0px 4px 4px 4px gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 2vh 20vh 2vh 20vh;
+}
+
+.form-box .form-group {
+    margin-bottom: 0px;
+}
+
+.form-70 {
+    max-width: 70%;
+    font-size: 13px;
+}
+
+.form-60 {
+    max-width: 60%;
+}
+
+.form-70 .form-control {
+    font-size: 13px;
+}
+
+.form-title {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: large;
+    margin: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.form-60 label {
+    font-size: 14px;
+}
+
+.form-box input {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.separacion-minima {
+    margin-top: 15px;
+}
+.separacion-5 {
+    margin-top: 5px;
+}
+
+.form-group.row {
+    display: flex;
+}
+.botonera .text-left{
+    float: left;
+}
+
+.botonera .text-right {
+    top: 8px;
+    float: right !important;
+}
+
+#btn-save, #btn-print, #btn-cancel {
+    display: none;
+}
+
+textarea.form-control {
+    height: 15vh;
+}
+
+input.numberinput.form-control{
+    text-align: right;
+}
+input.dateinput.form-control {
+    text-align: center;
+}
+
+.table-numeric {
+    text-align: right !important;
+}
+.etiquetas {
+    text-align: left;
+}
+
+input[type="number"].form-control{
+    text-align: right;
+}
+
+.numeric .control {
+    text-align: right;
+}
+
+.ui-helper-hidden-accessible{
+    display: none;
+}
+.autocompletewidget {
+    width: 75%;
+    min-height: 34px;
+}
+
+.texto-numerico,
+.numerico {
+    text-align: right;
+}
+
+.topright {
+    position: absolute !important;
+    right: 120px !important;
+    font-size: 18px !important;
+}

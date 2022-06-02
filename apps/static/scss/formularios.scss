@@ -1,0 +1,205 @@
+@import 'themes';
+
+form .container {
+    margin-top: 25px;
+}
+
+
+/* ESTILOS DE FORMULARIOS */
+
+.form-box {
+    background-color: #fff;
+    border-top: 3px solid $color-terciario;
+    box-shadow: 0px 4px 4px 4px gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 2vh 20vh 2vh 20vh;
+    border-radius: 7px;
+}
+
+.form-box .form-group {
+    margin-bottom: 0px;
+}
+
+.form-70 {
+    max-width: 70%;
+    font-size: 13px;
+}
+
+.form-60 {
+    max-width: 60%;
+}
+
+.form-70 .form-control {
+    font-size: 13px;
+}
+
+.form-title {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: $gris-fondo;
+    font-size: large;
+    margin-top: 15px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.form-60 label {
+    font-size: 14px;
+}
+
+.form-box input {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.separacion-minima {
+    margin-top: 15px;
+}
+.separacion-media {
+    margin-top: 30px;
+}
+.separacion-5 {
+    margin-top: 5px;
+}
+
+.form-group.row {
+    display: flex;
+}
+.botonera .text-left{
+    float: left;
+}
+
+.botonera .text-right {
+    float: right;
+}
+
+#btn-save, #btn-print, #btn-cancel {
+    display: none;
+}
+
+textarea.form-control {
+    height: 15vh;
+}
+
+input.numberinput.form-control{
+    text-align: right;
+}
+input.dateinput.form-control {
+    text-align: center;
+}
+
+
+.etiquetas {
+    text-align: left;
+}
+
+input[type="number"].form-control{
+    text-align: right;
+}
+
+.numeric .form-control,
+.numeric .control {
+    text-align: right;
+}
+
+.texto-numerico,
+.numerico {
+    text-align: right;
+}
+
+.panel-primary > .panel-heading{
+    background-color: $color-primario;
+    border-color: $color-primario;
+}
+
+.panel-primary {
+    border-color: $color-primario;
+}
+
+.control-label {
+    color: #666;
+}
+
+.controls input{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-size: 13px;
+}
+label.control-label{
+    text-decoration: underline;
+}
+
+// .select2-container .select2-selection {
+//     height: 60px;
+//     overflow: scroll;
+// }
+.form-error {
+
+    position: absolute;
+    float: left;
+    line-height: 24px;
+    background: $form-error;
+    padding: 0 0.6em;
+    white-space: nowrap;
+    margin: 1px 0 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 3px;
+    color: #222;
+
+    &:before {
+        display: block;
+        height: 0;
+        content: '';
+        position: absolute;
+    }
+
+    &.down:before {
+        border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid #D0717F;
+        margin-left: -3px;
+        margin-top: 20px
+    }
+    &.left:before {
+        border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 10px solid $form-error;
+        margin-left: -13px;
+        margin-top: 2px;
+    }
+
+}
+
+.filter-reset {
+   margin-top: -5px;
+}
+div.filter-form div.row-fluid{
+    clear: both;
+}
+div.filter-form div.row-fluid:first-child{
+    clear: none;
+}
+
+div.button-header{
+    button{
+        display:none;
+    }
+}
+
+button.edit-only{
+    visibility: hidden;
+}
+
+div.button-header button {
+    margin-bottom: 5px;
+    }
+
+
+div.input-group tags.tagify{
+    clear:none !important;
+    float: none !important;
+}
+
+div.form-group button{
+    clear:none;
+}
+
+.form-control tag {
+    font-size: 11px;
+}

@@ -1,0 +1,20 @@
+{% load bootstrap3 %}
+<div class="btn-holder">
+    <div class="form-group row">
+        <div class="text-left btn-izq">
+            <button class="btn btn-info edit" id="button-edit">Editar <i class="fa fa-pen"></i></button>
+        </div>
+        <div class="col-xs-offset-4 col-xs-8 text-right btn-der">
+            <button class="btn btn-primary btn-save" id="button-save">Guardar <i class="fa fa-save"></i></button>
+            <button class="btn btn-danger btn-cancel" id="button-cancel">Cancelar <i class="fa fa-save"></i></button>
+            {# <button class="btn btn-danger btn-reset" id="button-reset" onClick="window.location.reload();">Reset <i class="fa fa-save"></i></button> #}
+        </div>
+        <div class="print">
+            <button name="accion" value="IMPRIMIR" class="btn btn-warning oculto" id="button-print" formtarget="_blank">Imprimir <i class="fa fa-print"></i></button>
+        </div>
+    </div>
+</div>
+{% comment %}<script>
+    var botonera = true;
+</script>
+{% endcomment %}
