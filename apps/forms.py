@@ -18,7 +18,7 @@ class PruebaForm(forms.ModelForm):
 class BarrioForm(forms.ModelForm):
     class Meta:
             model = Barrio
-            fields = ['barrio']
+            fields = ['barrio', 'ciudad']
             
     def __init__(self, *args, **kwargs):
         #super(PruebaForm, self).__init__(*args, **kwargs)

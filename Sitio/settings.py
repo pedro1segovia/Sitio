@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps',
+    'membresia',
     'django_tables2',
     'bootstrap4',
     'crispy_forms',
@@ -83,8 +84,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'Sitio',
         'USER': 'postgres',
-        'PASSWORD': 'conproposito',
-        'HOST': '192.168.0.100',
+        'PASSWORD': 'admin123',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
